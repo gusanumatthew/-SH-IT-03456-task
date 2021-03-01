@@ -5,6 +5,7 @@ import 'dart:convert';
  void main() => runApp(
    MaterialApp(
      title: "Weather App",
+     debugShowCheckedModeBanner: false;
      home: Home() ,
    )
  );
